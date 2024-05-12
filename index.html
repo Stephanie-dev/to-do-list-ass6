@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do List</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <form id="todo-form">
+        <label for="addTask">
+            <input type="text" id="addTask" placeholder="Add a new task" />
+            <button type="submit"><i class="fa fa-plus" aria-hidden="true"></i></button>
+        </label>
+    </div>
+    </form>
+    <div class="container2">
+    <h3 id="taskCounter">Tasks - 0</h3>
+    <ul id="taskList"></ul>
+    </div>
+<div class="container2">
+    <h3 id="completedCounter">Done - 0</h3>
+
+    <div id="completedList"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web\fontawesome-free-6.5.2-web\css\fontawesome.min.css">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="taskForm">
+        <label for="addTask">
+          <input type="text" id="addTask" placeholder="Add a new task" /> 
+          <button type="submit" id="clicks"><i class="fa fa-plus fa-lg" aria-hidden="true"></i></button>
+        </label>
+      </form>
+      <ul id="taskList"></ul>
+    </div>
+
+    <script>
+document.getElementById('clicks').addEventListener('click', newTask);
+
+function newTask(){
+  const addTask = document.getElementById('addTask').value;
+
+  const li = document.createElement('li');
+  const t = document.createTextNode(addTask); //remove quotes here
+  li.appendChild(t);
+  document.getElementById('taskList').appendChild(li);
+}
+        
+    </script>
+  </body>
+</html> -->

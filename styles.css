@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 1rem;
+}
+
+body{
+    background: #0D0714;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    color: white;
+    font-weight: 100;
+    font: 1em sans-serif;
+}
+
+.container{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    margin: 40px auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+}
+
+
+input{
+    background-color: #0D0714;
+    padding: 10px 10px 10px 13px;
+    border: 1px solid #9E78CF;
+    border-radius: 10px;
+    color: #9E78CF;
+    margin-right: 2px;
+    width: 410px;
+}
+
+input::placeholder{
+    color: #777777;
+    font-size: 0.75rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #15101c;
+    color: #9E78CF;
+    padding: 25px 25px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+button{
+    background: none;
+    border: none;
+}
+.fa-plus{
+    color: white;
+    background-color: #9E78CF;
+    padding: 15px 15px 15px 15px ;
+    border-radius: 10px;
+}
+
+.fa-plus:hover{
+    background-color: #3E1671;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+#counters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.actions button i {
+    color: #9E78CF; /* Set the default color of the icons */
+}
+
+.actions button:hover i {
+    color: #3E1671 !important; /* Set the color of the icons when hovering */
+    transition: 0.2s ease-in;
+}
+
+.actions button .undo-btn:hover i {
+    color: #3E1671; /* Set the color of the undo icon when hovering */
+}
+
+#taskCounter,
+#completedCounter {
+    display: none; /* Hide the counters initially */
+}
+
+#completedList {
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+}
+
+#completedList div {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: line-through; /* Apply line-through style to completed tasks */
+    background: #15101c;
+    color: #78cfb0 !important;
+    padding: 25px 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+}
+
+span{
+    flex: 1;
+}
